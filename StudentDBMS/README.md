@@ -1,18 +1,32 @@
-## Getting Started
+# Student DBMS
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple command-line Student Database Management System (DBMS) implemented in Java. It serves as a practical example of Object-Oriented Programming (OOP) principles, including classes, objects, and relationships.
+
+The system provides a menu-driven interface to manage student, teacher, course, and marks data. It allows for adding, viewing, updating, and deleting records, as well as calculating a student's GPA.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace is organized as follows:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: This directory contains all the Java source files.
+  - `StudentDBMS.java`: The main class that drives the application, handling user input and menu navigation.
+  - `Persons.java`: A base class for entities like students and teachers.
+  - `Students.java`: A subclass of `Persons` representing student data.
+  - `Teachers.java`: A subclass of `Persons` representing teacher data.
+  - `Address.java`: A class to store address information for persons.
+  - `Course.java`: Represents a course with details like course code, name, and credit hours.
+  - `CourseMarks.java`: Manages the marks obtained by a student in a specific course.
+  - `Department.java`: A class for department-related information.
+  - `Employees.java`: A class for employee data.
+- `lib`: This folder is intended for external libraries or dependencies, although this project does not currently use any.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Compiled `.class` files are generated in the `bin` folder by default when the project is built in VS Code.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Run
 
-## Dependency Management
+1.  Ensure you have a Java Development Kit (JDK) installed on your system.
+2.  Open the `StudentDBMS` folder in Visual Studio Code.
+3.  Locate the `StudentDBMS.java` file in the `src` directory.
+4.  You can run the application by clicking the "Run" button that appears above the `main` method or by pressing `F5`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The application will start in the terminal, presenting a menu of options to interact with the system. The program initially populates some sample data for demonstration purposes.

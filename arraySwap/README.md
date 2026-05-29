@@ -1,18 +1,20 @@
-## Getting Started
+# Array Swap
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java program that demonstrates array manipulation. The program takes an array of 10 integers from the user, finds the largest and smallest numbers in the array, and then swaps their positions.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+- `src`: Contains the Java source files.
+  - `ArraySwapProg.java`: The main class that gets user input and runs the program.
+  - `arrayswap.java`: A class that contains the logic for adding numbers to the array, finding the largest and smallest, and performing the swap.
+- `lib`: This folder is for dependencies, though this project has none.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The compiled `.class` files will be generated in the `bin` folder.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How to Run
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1.  Make sure you have a JDK installed.
+2.  Open the `arraySwap` folder in VS Code.
+3.  Go to `src/ArraySwapProg.java`.
+4.  Click the "Run" button above the `main` method or press `F5`.
+5.  The program will prompt you to enter 10 numbers in the terminal. After you enter the numbers, it will display the largest and smallest numbers and the array after swapping them.
